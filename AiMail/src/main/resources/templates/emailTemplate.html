@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>邮件模板</title>
+</head>
+<body>
+    你好，感谢注册，请点击下放链接完成注册！
+    <a href="#" th:href="@{https://www.jianshu.com/{id}(id=${id})}">激活账户</a>
+
+</body>
+</html>
